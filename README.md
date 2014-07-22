@@ -14,8 +14,8 @@ The weight classification is determined using the calcutaed BMI value as:
 
 
 Required inputs to run this Application include:
-1. weight is body weight in pounds and
-2. height is body height in inches 
+1. weight - body weight in pounds and
+2. height - body height in inches 
 3. Age and
 4. gender (Gender value for male =1, and female = 0)
 
