@@ -9,7 +9,7 @@ fluidPage(
         numericInput('weight', 'Weight', 100, 5),
         numericInput('height', 'Height', 70, 5),
         numericInput('age', 'Age', 20, 0),
-        numericInput('gender', 'Gender', 0, 0),
+        numericInput('gender', 'Gender', 0, 0, 1),
         submitButton('Calc'),
         br(),
         br(),
@@ -25,7 +25,8 @@ fluidPage(
 	  h4('Documentation'),
         p("Monitoring  Body Mass Index (BMI) and percent fat content is important to monitor health status.  
            This application is developed to calculate BMI based on weight and height and peercent  
-           fat content based on BMI, age and gender. The images included in the side panel are for illustration only. The Instruction on how to uss the App. is given below"),
+           fat content based on BMI, age and gender. The images included in the side panel are for illustration only. 
+           The Instruction on how to use the App. is given below:"),
         h4('Instructions'),
         p("1. Enter your weight in pounds and height in inches in the form to the 
           left."),
